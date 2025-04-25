@@ -7,7 +7,7 @@ const projectBasePath = '/IOSPeScienceWorkshop/';
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: projectBasePath,
+  base: mode === 'development' ? projectBasePath: "/",
   server: {
     host: "::",
     port: 8080,
