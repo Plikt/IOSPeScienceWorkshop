@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/escience-25(/.*)?",
+      "destination": "/"
+    }
+  ]
+}
