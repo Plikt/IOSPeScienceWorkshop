@@ -8,14 +8,12 @@ import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
 
-const basename = "/IOSPeScienceWorkshop/";
-
 const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter basename={basename}>
+      <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="*" element={<NotFound />} />
