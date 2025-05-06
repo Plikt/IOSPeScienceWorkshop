@@ -22,7 +22,7 @@ export function WorkshopOverview() {
           </div>
         </div>
         <p className="text-gray-700 leading-relaxed">
-          This output-oriented workshop explores machine-augmented workflows for reliable FAIR metadata generation and data discovery mechanisms.
+          This workshop explores machine-augmented workflows for reliable FAIR metadata generation and data discovery mechanisms.
         </p>
       </div>
     </section>
